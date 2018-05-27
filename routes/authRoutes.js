@@ -4,7 +4,7 @@ module.exports = (app) => {
 
     app.get('/', (req, res) =>{
         //console.log(req);
-        res.send({"hi": "there again"});
+        res.send({"message": "Hello there, use the URL: https://thawing-meadow-49285.herokuapp.com/auth/google to authenticate yourself using google oauth"});
     });
 
     app.get(
